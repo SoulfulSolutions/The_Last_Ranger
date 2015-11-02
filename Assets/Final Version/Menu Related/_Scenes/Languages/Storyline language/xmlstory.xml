@@ -1,0 +1,29 @@
+﻿<languages>
+  <language>
+    <name>English</name>
+    <lblStory1>
+      A long time ago in the Game Reserve, a large number of animals used to live peacefully and graze upon green grass, drink water and hunt.
+
+      Rangers took care of the Game Reserve and protected it with their lives. They managed the animal population, check for diseases and alien plant control.
+
+      One night, what was thought to be a normal night turned out to be a complete nightmare. Sandile (A Ranger), who was sleeping, heard the sound of frightened animals from afar. He jumped out of bed quickly, took his riffle, went outside and he couldn’t believe his eyes.
+    </lblStory1>
+    <lblStory2>
+      The Game Reserve was invaded by alien animals. They came marching in large numbers and they were faster and stronger then the animals in the game reserve. They started to attack the animals from the Game Reserve because they wanted to take over the Game Reserve. As the other Rangers fought to defend the Game Reserve and its animals, the alien animals killed the Rangers in the process.
+
+      Sadly Sandile was too late and ended up being the only Ranger alive and he made a vow to help the few remaining animals from total extinction.
+
+      Now it is up to you to help Sandile protect the Game Reserve and its remaining animals by shooting and killing these alien animals who want to take over the Game Reserve as their own.
+    </lblStory2>
+    <btnSkip>Skip</btnSkip>
+    
+    
+  </language>
+
+  <language>
+    <name>Zulu</name>
+    <lblStory1>kudala izilwane zazi hlala ngokuthula esiqiwini. lezi zilwane zazi gadwa abavikeli bezilwane. abavikeli babevikela nesiqiwi</lblStory1>
+    <lblStory2>Kwathi ngelinye iLanga kwafika iziLwane zakomunye umhlaba ezingafani nezilwane ezijwayelekile. Lezi zilwane zafika ngodlame zabulala izilwane zesiqiwu. Usandile umvikeli wokugcina osele esiqiwini. Siza uSandile avikele isiqiwi!!</lblStory2>
+    <btnSkip>Dlula</btnSkip>
+  </language>
+</languages>

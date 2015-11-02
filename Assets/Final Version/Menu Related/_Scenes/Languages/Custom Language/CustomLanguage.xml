@@ -1,0 +1,29 @@
+<languages>
+
+<language>
+<Name>English</Name>
+<lblCustlog>Custom login</lblCustlog>
+<lblUsername>Username</lblUsername>
+<lblPassword>Password</lblPassword>
+  <txtUsername>Enter your Username</txtUsername>
+  <txtPassword>Enter your password</txtPassword>
+  <btnLogin>Login</btnLogin>
+  <lblAcco>Don't Have An Account?</lblAcco>
+  <btnCreate>Create Account</btnCreate>
+  <btnReset>Reset</btnReset>
+
+</language>
+
+  <language>
+    <Name>Zulu</Name>
+    <lblCustlog>Indlela yakho yokungena</lblCustlog>
+    <lblUsername>Igama lokungena</lblUsername>    
+    <lblPassword>Iphasiwedi</lblPassword>
+    <txtUsername>faka iGama lokungena </txtUsername>
+    <txtPassword>Faka Iphasiwedi </txtPassword>
+    <btnLogin>Ngena </btnLogin>
+    <lblAcco>Awukabhalisili?</lblAcco>
+    <btnCreate>Bhalisa</btnCreate>
+    <btnReset>Qalela phansi</btnReset>
+  </language>
+</languages>

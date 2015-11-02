@@ -1,0 +1,21 @@
+﻿<languages>
+  <language>
+    <name>English</name>
+    <lblLevCom>Level Completed</lblLevCom>
+    <lblScore>Your score is </lblScore>
+    <btnRestart>Restart</btnRestart>
+    <btnViewL>View Leaderboard</btnViewL>
+    <btnShare>Share Game on Facebook</btnShare>
+    <btnQuit>Quit</btnQuit>
+  </language>
+
+  <language>
+    <name>Zulu</name>
+    <lblLevCom>uyiQedile iLevel</lblLevCom>
+    <lblScore> amaPhuzu Akho </lblScore>
+    <btnRestart>Qala Kabusha</btnRestart>
+    <btnViewL>Abahamba phambili</btnViewL>
+    <btnShare>Tshengisa amaphuzu ku-facebook </btnShare>
+    <btnQuit>Iya ku-menu</btnQuit>
+  </language>
+</languages>

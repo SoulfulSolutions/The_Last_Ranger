@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Final Version\Level Related\_Scenes\WaveLanguage\xmlWave1.xml">
+    <Files>
+      <File FileName="Assets\Final Version\Level Related\_Scenes\WaveLanguage\xmlWave1.xml" Line="27" Column="11" />
+      <File FileName="Assets\Final Version\Level Related\_Scenes\WaveLanguage\wave1Reader.cs" Line="64" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,70 @@
+﻿<languages>
+  <language2>
+    <Name>English</Name>
+    <lblMain>Main Menu</lblMain>
+    <btnNewG>New Game</btnNewG>
+    <btnLoad>Load Game</btnLoad>
+    <btnInstr>Instructions</btnInstr>
+    <btnSett>Settings</btnSett>
+    <btnCred>Credits</btnCred>
+    <btnLog>Logout</btnLog>
+    
+      <lblInstru>Instructions Menu</lblInstru>
+     <btnCon>Controls</btnCon>
+     <btnPerk>Perks</btnPerk>
+     <btnScore>Scoring System</btnScore>
+      <btnBackIns>Back</btnBackIns>
+    
+    
+    <lblSett>Settings Menu</lblSett>
+    
+        <lblMenS>Menu Sounds</lblMenS>
+        <lblMute>Mute</lblMute>
+        <lblLevs>Level Sounds</lblLevs>
+        <lblMute2>Mute</lblMute2>
+       <lblMaster>Master Level Sounds</lblMaster>
+        <lblMute3>Mute</lblMute3>
+        <btnBackSet>Back</btnBackSet> 
+    	
+    <lblCred>Credits Menu</lblCred>
+    <btnCredBack>Back</btnCredBack>
+                
+
+
+   </language2>
+
+
+
+
+
+  <language2>
+    <Name>Zulu</Name>
+    <lblMain>iMain Menu</lblMain>
+    <btnNewG>Umdlalo Omusha</btnNewG>
+    <btnLoad>Vula umdlalo</btnLoad>
+    <btnInstr>Imbandela</btnInstr>
+    <btnSett>Izilungiselelo</btnSett>
+    <btnCred>Sibonge</btnCred>
+    <btnLog>Phuma</btnLog>
+    
+    <lblInstru>iMenu yemibandela</lblInstru>
+    <btnCon>amaControl</btnCon>
+    <btnPerk>amaPheku</btnPerk>
+    <btnScore>Indlela yokubala amaPhuzu</btnScore>
+    <btnBackIns>Buyela emuva</btnBackIns>
+    
+    <lblSett>iMenu yezilungiselelo</lblSett>
+     <lblMenS>uMsindo weMenu</lblMenS>
+     <lblMute>Thulisa</lblMute>
+     <lblLevs>Umsindo welevel</lblLevs>
+     <lblMute2>Thulisa</lblMute2>
+     <lblMaster>Wonke umsindo</lblMaster>
+     <lblMute3>Thulisa</lblMute3>
+     <btnBackSet>Phuma</btnBackSet>
+     <lblCred>amaCredits  yeMenu</lblCred>
+    <btnCredBack>Buyela emuva</btnCredBack>
+                
+
+
+              </language2>
+</languages>

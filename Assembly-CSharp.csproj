@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{9EBD282F-46F9-B0CA-15E3-25C1B3568DFD}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_2;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AnimWander.cs" />
+     <Compile Include="Assets\Avator1\Animals\Scripts\AnimateGorilla.cs" />
+     <Compile Include="Assets\Avator1\DBscripts\SaveEnemyPos.cs" />
+     <Compile Include="Assets\Avator1\DBscripts\SaveGame.cs" />
+     <Compile Include="Assets\Avator1\DBscripts\SavePerksPos.cs" />
+     <Compile Include="Assets\Avator1\DBscripts\SavePlayerPos.cs" />
+     <Compile Include="Assets\Avator1\IK\Scripts\ik\IKLimb_BrunoFerreira.cs" />
+     <Compile Include="Assets\Avator1\MiniMap\Blib.cs" />
+     <Compile Include="Assets\Avator1\MiniMap\miniMap.cs" />
+     <Compile Include="Assets\Avator1\Scripts\CharacterMotor.cs" />
+     <Compile Include="Assets\Avator1\Scripts\CrossHair.cs" />
+     <Compile Include="Assets\Avator1\Scripts\DestroyDecale.cs" />
+     <Compile Include="Assets\Avator1\Scripts\Globals.cs" />
+     <Compile Include="Assets\Avator1\Scripts\HeadLookController.cs" />
+     <Compile Include="Assets\Avator1\Scripts\PlayerAnimator.cs" />
+     <Compile Include="Assets\Avator1\Scripts\PlayerCamera.cs" />
+     <Compile Include="Assets\Avator1\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Avator1\Scripts\PlayerScript.cs" />
+     <Compile Include="Assets\Avator1\Scripts\PlayerTarget.cs" />
+     <Compile Include="Assets\Avator1\Scripts\Weapon.cs" />
+     <Compile Include="Assets\Avator1\WavesController.cs" />
+     <Compile Include="Assets\Avator1\backAndRestart.cs" />
+     <Compile Include="Assets\Avator1\playerimage.cs" />
+     <Compile Include="Assets\Avator1\wave3Controller.cs" />
+     <Compile Include="Assets\Avator1\waveContro.cs" />
+     <Compile Include="Assets\Facebook\Scripts\AbstractFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FB.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBAppEventName.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBAppEventParameterName.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBAppRequestsFilterGroup.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBComponentFactory.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBDebug.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBSettings.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FacebookSdkVersion.cs" />
+     <Compile Include="Assets\Facebook\Scripts\NativeDialogModes.cs" />
+     <Compile Include="Assets\Facebook\Scripts\NativeFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\OGActionType.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformAndroid\AndroidFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformAndroid\AndroidFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformCanvas\CanvasFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformCanvas\CanvasFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformCanvas\JsBridge.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformEditor\EditorFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformEditor\EditorFacebookAccessToken.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformEditor\EditorFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformIOS\IOSFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformIOS\IOSFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Utils\AsyncRequestString.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Utils\HttpMethod.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Utils\MiniJson.cs" />
+     <Compile Include="Assets\Final Version\AnimalScripts\AnimalHealth.cs" />
+     <Compile Include="Assets\Final Version\Enemies\Cyclop_Soldier\scripts\enemyController.cs" />
+     <Compile Include="Assets\Final Version\Enemies\Earthborn Troll\Scripts\EnemyMovement.cs" />
+     <Compile Include="Assets\Final Version\Enemies\Goblin\Scripts\EnemyAI.cs" />
+     <Compile Include="Assets\Final Version\Enemies\Goblin\Scripts\EnemyAI2.cs" />
+     <Compile Include="Assets\Final Version\Enemies\Goblin\Scripts\EnemyAI3.cs" />
+     <Compile Include="Assets\Final Version\Enemies\Scripts\CyclopsManager.cs" />
+     <Compile Include="Assets\Final Version\Enemies\Scripts\EnemyHealth.cs" />
+     <Compile Include="Assets\Final Version\Enemies\Scripts\GoblinManager.cs" />
+     <Compile Include="Assets\Final Version\Enemies\Scripts\TrollManager.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Level 1\Scripts\Animals\AnimateFirstWolf.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Level 1\Scripts\Animals\AnimateLastWolf.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Level 1\Scripts\Animals\AnimateSecondWolf.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Level 1\Scripts\Animals\AnimateThirdWolf.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Level 1\Scripts\Animals\GorillaAnimator.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Level 1\Scripts\Animals\HorseAnimator.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Level 1\Scripts\Enemies\EnemyBehavior.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Level 1\Scripts\Game Managers\WavesManager.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\Camera\CameraFollow.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\Enemies\BossController.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\Enemies\BossHealth.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\Enemies\Bullet_Hit_Boss.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\Enemies\Bullet_hit.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\Managers\AnimatePerk.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\Managers\BonusDisplay.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\Managers\FollowMe.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\Managers\GameTips.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\Managers\LifePerk.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\Managers\PauseManager.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\Managers\PerksManager.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\Managers\PointsPerk.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\Managers\PowerUpPerk.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\Managers\SaveHorse.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\Managers\WinManager.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\PlayerHealth.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\gameVolContr.cs" />
+     <Compile Include="Assets\Final Version\Level Related\Scripts\wave1stat.cs" />
+     <Compile Include="Assets\Final Version\Level Related\_Scenes\GameOverLanguage\GameOverReaderr.cs" />
+     <Compile Include="Assets\Final Version\Level Related\_Scenes\LeaderBoardLanguage\LeaderBoardReader.cs" />
+     <Compile Include="Assets\Final Version\Level Related\_Scenes\WaveLanguage\wave1Reader.cs" />
+     <Compile Include="Assets\Final Version\Level Related\_Scenes\winLanguage\winReader.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\Scripts\CreditsController.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\Scripts\GameOverController.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\Scripts\InstructionsController.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\Scripts\LoadGameController.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\Scripts\MenuController.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\Scripts\MenuManager.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\Scripts\MenuTransitionController.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\Scripts\Register.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\Scripts\ResertPassword.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\Scripts\SettingsController.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\Scripts\SplashController.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\Scripts\StorylineController.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\Scripts\fblogin.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\Scripts\fbmenu.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\Scripts\login.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\Scripts\util.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\_Scenes\Languages\Custom Language\CustomReader.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\_Scenes\Languages\Menu language\menuLanguage.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\_Scenes\Languages\Menufb language\menufbReader.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\_Scenes\Languages\Register language\RegisterReader2.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\_Scenes\Languages\Reset Language\ResetReader.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\_Scenes\Languages\Storyline language\StoryReader.cs" />
+     <Compile Include="Assets\Final Version\Menu Related\_Scenes\Languages\login language\loginReader.cs" />
+     <Compile Include="Assets\LoadGame.cs" />
+     <Compile Include="Assets\Menu\Scripts\Leaderboard.cs" />
+     <Compile Include="Assets\Menu\Scripts\LevelSound.cs" />
+     <Compile Include="Assets\Menu\Scripts\MainMenuController.cs" />
+     <Compile Include="Assets\Menu\Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\Menu\Scripts\StoryLineController.cs" />
+     <Compile Include="Assets\Menu\Scripts\fbHolder.cs" />
+     <Compile Include="Assets\Menu\Scripts\pauseMenu.cs" />
+     <Compile Include="Assets\Perks\perkSpin.cs" />
+     <Compile Include="Assets\Recursos Caballo\Wander.cs" />
+     <Compile Include="Assets\SaveGameState.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Core\MActor.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Core\MController.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Core\MMapBase.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Core\MModel.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Core\MModelWActors.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Core\MOrientation.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Core\MUpdateIn.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Core\MView.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Core\MViewRT.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Core\MViewRaster.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Interaction\MCreateMark.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Interaction\MEventSystem.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Interaction\MInteractionEvent.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Interaction\MInteractionType.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Objects\MArrowCircular.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Objects\MMarkCircle.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Objects\MObjRotateActor.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Objects\MObjRotateFreeze.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Objects\MObjScale.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Objects\MObjTranslate.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Objects\MObject.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Objects\MPin.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Util\FreezeRotation.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Util\HUDFPS.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Util\MClassDescription.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Util\MDynamicRT.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Util\MMapSnapshot.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Util\MMapTools.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Util\MPaths.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Util\MSettings.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Util\MUtil.cs" />
+     <Compile Include="Assets\Scripts\Minimap\Util\ScriptableSingleton.cs" />
+     <Compile Include="Assets\aaaa.cs" />
+     <Compile Include="Assets\enterwater.cs" />
+     <Compile Include="Assets\saveanimals.cs" />
+     <Compile Include="Assets\volContr.cs" />
+     <None Include="Assets\Final Version\Enemies\Earthborn Troll\Shader\Alpha_Texture.shader" />
+     <None Include="Assets\Final Version\Level Related\_Scenes\WaveLanguage\xmlWave3.xml" />
+     <None Include="Assets\Sources.txt" />
+     <None Include="Assets\Final Version\Menu Related\_Scenes\Languages\Storyline language\xmlstory.xml" />
+     <None Include="Assets\ChangeLog.txt" />
+     <None Include="Assets\Final Version\Level Related\_Scenes\LeaderBoardLanguage\xmlLeaderBoard.xml" />
+     <None Include="Assets\Final Version\Level Related\_Scenes\WaveLanguage\xmlWave1.xml" />
+     <None Include="Assets\Avator1\ProCore\Prototype\About\changelog.txt" />
+     <None Include="Assets\Avator1\ProCore\Prototype\Shader\DiffuseVertexColor.shader" />
+     <None Include="Assets\Avator1\IK\Readme.txt" />
+     <None Include="Assets\Final Version\Enemies\Earthborn Troll\Shader\DoubleSided-Light-Spec.shader" />
+     <None Include="Assets\Final Version\Level Related\_Scenes\winLanguage\xmlWin.xml" />
+     <None Include="Assets\Avator1\ProCore\Shared\About\README.txt" />
+     <None Include="Assets\Final Version\Menu Related\_Scenes\Languages\Register language\xmlRegister.xml" />
+     <None Include="Assets\Avator1\ProCore\Prototype\Shader\DiffuseVertexColorTransparency.shader" />
+     <None Include="Assets\Avator1\ProCore\Prototype\Shader\pb_FaceHighlight.shader" />
+     <None Include="Assets\Avator1\ProCore\Prototype\Shader\UnlitSolidColor.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Avator1\ProCore\Prototype\Shader\DiffuseTextureBlend.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Final Version\Level Related\_Scenes\GameOverLanguage\xmlGameOver.xml" />
+     <None Include="Assets\Avator1\ProCore\Prototype\Shader\pb_UnlitVertexColor.shader" />
+     <None Include="Assets\Facebook\Scripts\PlatformCanvas\Resources\JSSDKBindings.txt" />
+     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Final Version\Menu Related\_Scenes\Languages\Menufb language\xmlMenufb.xml" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Avator1\ProCore\Prototype\About\pc_AboutEntry_ProBuilder.txt" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Final Version\Menu Related\_Scenes\Languages\Custom Language\CustomLanguage.xml" />
+     <None Include="Assets\Avator1\ProCore\Prototype\Shader\pb_VertexShader.shader" />
+     <None Include="Assets\Avator1\Animals\Models 1\Horse\SoftAlpha.shader" />
+     <None Include="Assets\Final Version\Menu Related\_Scenes\Languages\Reset Language\xmlReset.xml" />
+     <None Include="Assets\Final Version\Level Related\_Scenes\WaveLanguage\xmlWave2.xml" />
+     <None Include="Assets\Avator1\ProCore\_README_PROTOTYPE.txt" />
+     <None Include="Assets\Avator1\ProCore\Prototype\Shader\DiffuseVertexColorEmission.shader" />
+     <None Include="Assets\Final Version\Menu Related\_Scenes\Languages\login language\loginLanguage.xml" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Final Version\Menu Related\_Scenes\Languages\Menu language\menu.xml" />
+     <None Include="Assets\ReadMe.txt" />
+     <None Include="Assets\Avator1\ProCore\Prototype\About\Credits.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="ProBuilderCore-Unity5">
+ <HintPath>C:/Users/Zungu/Desktop/TheLastRanger_22_05_15/Assets/Avator1/ProCore/Prototype/Classes/ProBuilderCore-Unity5.dll</HintPath>
+ </Reference>
+ <Reference Include="ProBuilderMeshOps-Unity5">
+ <HintPath>C:/Users/Zungu/Desktop/TheLastRanger_22_05_15/Assets/Avator1/ProCore/Prototype/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+ </Reference>
+ <Reference Include="ProCore">
+ <HintPath>C:/Users/Zungu/Desktop/TheLastRanger_22_05_15/Assets/Avator1/ProCore/Shared/Code/ProCore.dll</HintPath>
+ </Reference>
+ <Reference Include="pb_Profiler">
+ <HintPath>C:/Users/Zungu/Desktop/TheLastRanger_22_05_15/Assets/Avator1/ProCore/Shared/pb_Profiler/pb_Profiler.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{5F9A19BD-8B35-2575-D254-0FA194B4EBA4}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

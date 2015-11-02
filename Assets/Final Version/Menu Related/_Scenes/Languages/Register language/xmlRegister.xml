@@ -1,0 +1,44 @@
+﻿
+<languages>
+  <language>
+    <Name>English</Name>
+    <lblReg>Register</lblReg>
+  <lblUser>Username</lblUser>
+    <txtUser>Enter your Username</txtUser>
+    <lblPassw>Password</lblPassw>
+    <txtPassw>Enter your password</txtPassw>
+    <lblPassR>Password Recovery Quesiton</lblPassR>
+    <txtSel>Please select a question</txtSel>
+    <lblAns>Security Answer</lblAns>
+  <txtEnt>Enter your Answer</txtEnt>
+    <btnCreate>Create Account</btnCreate>
+    <btnBack>Back to loign</btnBack>
+    <txtq1>What is the name of your first school?</txtq1>
+    <txtq2>What is your mothers maiden name?</txtq2>
+    <txtq3>In which city were you born?</txtq3>
+    <txtq4>What is your favorite colour?</txtq4>
+  <txtq5>what is your dream car?</txtq5>
+  </language>
+  
+    
+    
+<language>
+    <Name>Zulu</Name>
+    <lblReg>Bhalisa</lblReg>
+  <lblUser>Igama lokubhahlisa</lblUser>
+    <txtUser>Faka iGama lokuBhalisa</txtUser>
+    <lblPassw>iPhasiwedi</lblPassw>
+    <txtPassw>Faka iPhasiwedi yakho</txtPassw>
+    <lblPassR>Umbuzo wokuthola iPhasiwedi</lblPassR>
+    <txtSel>Khetha Umbuzo</txtSel>
+    <lblAns>Impendulo </lblAns>
+  <txtEnt>faka impendulo yakho</txtEnt>
+    <btnCreate>Bhalisa</btnCreate>
+    <btnBack>Buyela ku-Login</btnBack>
+    <txtq1>Yini igama lesikole sakho?</txtq1>
+    <txtq2>Isibongo saNina sokuzalwa?</txtq2>
+    <txtq3>Wazalwelaphi?</txtq3>
+    <txtq4>Umbala owuthandayo?</txtq4>
+  <txtq5>iMoto oyithandayo?</txtq5>
+  </language>
+</languages>

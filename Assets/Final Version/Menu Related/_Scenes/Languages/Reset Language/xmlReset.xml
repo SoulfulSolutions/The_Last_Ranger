@@ -1,0 +1,26 @@
+﻿
+
+<Languages>
+  <language>
+    <Name>English</Name>
+    <lblResP>Reset Password</lblResP>
+  <lblPles>Please Enter New Password</lblPles>
+    <lblPass>Password</lblPass>
+    <txtPass>Enter new Password</txtPass>
+    <lblCPass>Confirm Password</lblCPass>
+    <txtCPass>Confirm Password</txtCPass>
+    <btnResP>Reset Password</btnResP>
+  </language>
+
+<language>
+     <Name>Zulu</Name>
+    <lblResP>Lungisa Iphasiwedi</lblResP>
+    <lblPles>Faka iphasiwedi kabusha</lblPles>
+    <lblPass>Iphasiwedi</lblPass>
+    <txtPass>Faka iPhasiwedi Entsha</txtPass>
+    <lblCPass>Qinisekisa ipasiwedi</lblCPass>
+    <txtCPass>Qinisekisa ipasiwedi</txtCPass>
+    <btnResP>Lungisa iphasiwedi</btnResP>
+  </language>
+
+</Languages>

@@ -1,0 +1,21 @@
+﻿<languages>
+  <language>
+    <name>English</name>
+    <lblGameO>Game Over</lblGameO>
+    <lblScore>Your score is </lblScore>
+    <btnRestart>Restart</btnRestart>
+    <btnViewL>View Leaderboard</btnViewL>
+    <btnShare>Share Game on Facebook</btnShare>
+    <btnQuit>Quit</btnQuit>
+  </language>
+
+  <language>
+    <name>Zulu</name>
+    <lblGameO>uPhelile uMdlalo</lblGameO>
+    <lblScore> amaPhuzu Akho </lblScore>
+    <btnRestart>Qala Kabusha</btnRestart>
+    <btnViewL>Bona iLeaderboard</btnViewL>
+    <btnShare>Tshengisa amaphuzu ku-facebook </btnShare>
+    <btnQuit>Buyela kwi menu</btnQuit>
+  </language>
+</languages>

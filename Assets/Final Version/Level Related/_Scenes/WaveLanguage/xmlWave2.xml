@@ -1,0 +1,79 @@
+﻿<languages>
+  <language>
+    <name>English</name> 
+    <lblWaveObj>Wave Objective ?</lblWaveObj>
+    <lblWaveOText>
+    Your objective as the ranger is to save
+	the animals. Do this by pressing the F
+	key when you are close to one.</lblWaveOText>
+    <btnNext>Next</btnNext>
+    <lblWaveObj2>Wave Objective ?</lblWaveObj2>
+    <lblWaveOText2>
+    How do you complete this wave ? 
+	1. Killing all the enemies
+
+	You lose if you let 8 or more animals
+	die or you yourself are killed by the 
+	enemies</lblWaveOText2>
+    <btnClose>Close</btnClose>
+    <lblAnikill>Animals Killed </lblAnikill>
+    <lblEnemKill>Enemies Killed</lblEnemKill>
+    <lblPause>Pause Menu</lblPause>
+    <btnResume>Resume</btnResume>
+    <btnRestart>Restart</btnRestart>
+    <btnSaveG>Save Game</btnSaveG>
+    <btnLoadG>Load Game</btnLoadG>
+    <btnQuitG>Quit Game</btnQuitG>
+    <lblQuitText>Are you sure you want to quit this game ?</lblQuitText>
+    <btnYes>Yes</btnYes>
+    <btnNo>No</btnNo>
+    
+     <lblStatHead>Wave 1 Statistics</lblStatHead>
+    <lblWaveScore>Wave Score</lblWaveScore>
+    <lblSavedAnimals>Number of saved animals</lblSavedAnimals>
+    <lblEnemiesKilled>Number of enemies killed</lblEnemiesKilled>
+    <lblAnimalsKilled>Number of animals killed</lblAnimalsKilled>
+    <btnProceed>Proceed</btnProceed>
+  </language>
+
+  <language>
+    <name>Zulu</name>
+    
+    <lblWaveObj>Inhloso yeWave:</lblWaveObj>
+    <lblWaveOText>
+    Vikela izilwane. Cindezela uF uMa
+    uSusondele esiSlwaneni </lblWaveOText>
+    <btnNext>Dlula</btnNext>
+    <lblWaveObj2>Inhloso yeWave:</lblWaveObj2>
+    <lblWaveOText2>
+    Ukuze uqede leWave ?    
+    1.Bulala zonke izitha
+    
+    Uma kufa izlwane eziwu 8, 
+    umdlalo uyaphela</lblWaveOText2>
+    <btnClose>Vala</btnClose>
+    
+    <lblAnikill>IziLwane OziBulele </lblAnikill>
+    <lblEnemKill>Izitha OziBulele </lblEnemKill>
+
+    <lblPause>iPause Menu</lblPause>
+    <btnResume>Buyela</btnResume>
+    <btnRestart>Qala Kabusha</btnRestart>
+    <btnSaveG>Wonga Umdlalo</btnSaveG>
+    <btnLoadG>Vula Umdlalo</btnLoadG>
+    <btnQuitG>Cisha Umdlalo</btnQuitG>
+
+    <lblQuitText>Uqinsekile ukuthi ufuna ukuvala umdlalo ?</lblQuitText>
+    <btnYes>Yebo</btnYes>
+    <btnNo>Cha</btnNo> 
+    
+	<lblStatHead>Izibalo zaWave 2</lblStatHead>
+    <lblWaveScore>Amaphuzu eWave</lblWaveScore>
+    <lblSavedAnimals>Izilwane oyiSindisile</lblSavedAnimals>
+    <lblEnemiesKilled>Izitha oyiBulalile</lblEnemiesKilled>
+    <lblAnimalsKilled>Izilwane eziBulelwe</lblAnimalsKilled>
+    <btnProceed>Qhubeka</btnProceed>
+    
+  </language>
+</languages>
+
